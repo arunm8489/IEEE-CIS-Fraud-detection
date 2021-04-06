@@ -13,5 +13,7 @@ The main business objective of finding fraud transactions can be following:
 ### Results
 After creating some baseline models we stick up with xgboost as it was giving better perfomance. We did several feature engineering and feature selection and ultimatly end up with a solution which is top 3.5% in kaggle leaderboard. The progress in our project is as follows:
 
+<br>
+
 <img src = "https://github.com/arunm8489/IEE-CIS-Fraud-detection/blob/main/images/results.png">
 
