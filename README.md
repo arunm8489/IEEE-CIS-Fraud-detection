@@ -10,13 +10,17 @@ The main business objective of finding fraud transactions can be following:
 * We should be able to predict the probability of fraud transaction
 * We should not predict fraud transactions as nonfraud. Also the vice versa. So precision and recall should be taken care of.
 
-
+### Approach
+* Do exploratory data analysis on each and every column and understand the impact of each feature.
+* Build a baseline model.
+* Create new features and see whether those features improve the performance of the model. If yes retain the features or else drop those features. I used forward feature selection for that.
+* Iteratively continue this approach until we get a good score.
 
 ### Results
-After creating some baseline models we stick up with xgboost as it was giving better perfomance. We did several feature engineering and feature selection and ultimatly end up with a solution which is top 3.5% in kaggle leaderboard. I have written a detailed blog regarding my solution.Please refer this. https://medium.com/@arunm8489/ieee-cis-fraud-detection-top-5-solution-5488fc66e95f. 
+After creating some baseline models we stick up with xgboost as it was giving better perfomance. We did several feature engineering and feature selection and ultimatly end up with a solution which is top 3.5% in kaggle leaderboard. I have written a detailed blog regarding my solution.Please refer my <a href="https://medium.com/@arunm8489/ieee-cis-fraud-detection-top-5-solution-5488fc66e95f">medium blog</a>.  
 
 
-The progress in our project is as follows:
+The progress of project is as follows:
 
 <br>
 
